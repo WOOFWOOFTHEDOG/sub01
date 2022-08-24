@@ -1,0 +1,119 @@
+@font-face {
+    font-family: 'Cafe24Ssurround';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2105_2@1.0/Cafe24Ssurround.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-4Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-4Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'S-CoreDream-2ExtraLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-2ExtraLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'S-CoreDream-1Thin';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-1Thin.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+*{margin: 0; padding: 0;}
+ul{list-style: none;}
+a{text-decoration: none; color: #1f3668;}
+body{font-family: 'S-CoreDream-4Regular';
+font-size: 25px;
+line-height: 30px;
+color:#1f3668;
+}
+
+/*top*/
+#top{
+    width: 100%;
+    height: 700px;
+  }
+  .top_inner{
+    width:1320px;
+    margin: 0 auto;
+    z-index: 99;
+  }
+  .top_inner_wrap{
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100px;
+    z-index: 98;
+    position: relative;
+  }
+  .logo{
+    float: left;
+    padding-top: 5px;
+  }
+  .nav{
+    float: right;
+  }
+  .nav li{
+    float: left;
+    padding: 35px 30px 35px;
+  }
+  .nav li a{
+    font-family: 'Cafe24Ssurround';
+    color: #fff;
+  }
+  .nav> li:hover> a{
+    color:#9db9e1;
+  }
+  .main_banner{
+    width:100%; height:800px; 
+    position:absolute;
+    z-index: 1;
+    width: 100%;
+    height: 1080px;
+    top:0;
+    left:0;
+    right:0;
+}
+
+  .m_banner{
+    width:100%;
+  }
+  /*top*/
+
+
+  #wrap{
+    width:100%;
+    overflow: hidden;/*높이값*/
+    padding-top:20%;
+}
+
+  .cont1 img, .cont2 img, .cont3 img, .cont4 img, .cont5 img{
+        width:100%; 
+        display: block;
+    }
+
+  /*footer*/
+  #footer{
+    padding-top:30px;
+    background-color: #1f3668;
+    color:#fff;
+    font-family: 'S-CoreDream-1Thin';
+    text-align: center;
+}
+#footer p{
+    font-size: 20px;
+}
+.f_link{
+    font-size: 30px;
+    padding-top: 10px;
+}
+.f_link a{
+    font-size: 30px;
+    color: #fff;
+}
+
+/* 애니메이션 참고 https://joshua-dev-story.blogspot.com/2020/11/javascript-css-scroll-animation.html */
